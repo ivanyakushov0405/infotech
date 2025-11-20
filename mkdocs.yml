@@ -2,7 +2,30 @@ site_name: My Lecture
 site_url: https://ivanyakushov0405.github.io/infotech
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: black
+      accent: teal
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    - scheme: slate
+      primary: black
+      accent: teal  
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+
+nav:
+  - Main Page: /infotech
+  - Blockchain: Blockchain.md
+
+
+
 markdown_extensions:
+  - attr_list
+  - md_in_html
   - admonition
   - pymdownx.details
   - pymdownx.superfences
