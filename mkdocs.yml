@@ -1,1 +1,9 @@
-site_name: My Docs
+site_name: My Lecture
+site_url: https://ivanyakushov0405.github.io/infotech
+theme:
+  name: material
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  
