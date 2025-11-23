@@ -166,7 +166,4 @@
 3. <https://practicum.yandex.ru/blog/chto-takoe-blokchain-i-kak-eto-rabotaet/#sfery-primeneniya>
 4. <https://www.binance.com/ru/academy/articles/what-is-a-blockchain-consensus-algorithm>
 5. <https://libeldoc.bsuir.by/bitstream/123456789/40258/1/Yakovchik_Algoritmy.pdf>
-<<<<<<< HEAD
-=======
-6. 
->>>>>>> 775c10c2a568199156d549b289000dd6581551ff
+
