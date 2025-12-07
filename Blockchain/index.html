@@ -1,0 +1,779 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://ivanyakushov0405.github.io/infotech/Blockchain/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.0">
+    
+    
+      
+        <title>Blockchain - My Lecture</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.618322db.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="teal">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#_1" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="My Lecture" class="md-header__button md-logo" aria-label="My Lecture" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            My Lecture
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Blockchain
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="teal"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="My Lecture" class="md-nav__button md-logo" aria-label="My Lecture" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    My Lecture
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="/infotech" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Main Page
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blockchain
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Blockchain
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤔Что такое Блокчейн простыми словами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐Основной прицип блокчейна: Децентрализованность
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👥Из кого состоит сеть блокчейна? (Ноды, Майнеры)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑Открытый и закрытый ключ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅Как принимают новый блок? (Майнинг, Механизм Консенсуса)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🇷🇺Ситуация в России
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀Перспективы развития
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀Перспективы развития">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Список источников
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🤔Что такое Блокчейн простыми словами
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🌐Основной прицип блокчейна: Децентрализованность
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        👥Из кого состоит сеть блокчейна? (Ноды, Майнеры)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🔑Открытый и закрытый ключ
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ✅Как принимают новый блок? (Майнинг, Механизм Консенсуса)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🇷🇺Ситуация в России
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        🚀Перспективы развития
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="🚀Перспективы развития">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Список источников
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 style="font-weight: 700"> Блокчейн </h1>
+
+<h2 id="_1">🤔Что такое Блокчейн простыми словами</h2>
+<p>Представьте себе большую цифровую книгу учета (бухгалтерскую книгу), которую ведут не в одной компании, а одновременно на тысячах компьютеров по всему миру. Это и есть блокчейн.</p>
+<p>Простая аналогия: Если вы представите себе общий Google Документ, который каждый может <strong>просматривать</strong> и в который можно <strong>добавлять</strong> новые строки, но никто не может <strong>изменить</strong> или <strong>удалить</strong> уже существующие, то вы близки к пониманию.</p>
+<p>В слове Blockchain два составляющих — <em>Block</em> (Блок) и <em>Chain</em> (Цепь). «Блок» — это запись о нескольких действиях (например, переводах денег). «Цепь» — это связь этих блоков между собой в хронологическом порядке. Каждый новый блок содержит «отпечаток» (хэш) предыдущего. Если кто-то попытается изменить информацию в старом блоке, это сразу станет заметно, так как нарушится вся цепочка. Это делает систему очень надежной и прозрачной.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Блокчейн — вид распределенного реестра, который представляет собой выстроенную по определенным правилам последовательную цепочку, которая формируется из блоков транзакций. При этом каждый последующий блок данной структуры содержит информацию о предыдущем блоке, таким образом, в целом цепочка хранит всю историю совершенных транзакций.</p>
+</div>
+<h2 id="_2">🌐Основной прицип блокчейна: Децентрализованность</h2>
+<p><img alt="" src="../images/blockchainstructure.png" /></p>
+<p>Традиционные системы (как банк или государственный реестр) — централизованные. Есть один главный сервер или орган, который всем управляет и хранит все данные. Если его взломать, отключить или он выйдет из строя — вся система перестанет работать.</p>
+<p>Блокчейн — децентрализованный. У этой цифровой книги нет одного хозяина. Ее полные копии хранятся и обновляются одновременно на тысячах независимых компьютеров по всему миру. Блокчейн сеть на основе архитектуры одноранговой P2P (Peer-to-Peer) сети, которая работает поверх TCP/IP.[6]</p>
+<ul>
+<li>В клиент-серверной архитектуре (классический интернет): ваш браузер (клиент) обращается к серверу, чтобы получить информацию. Все завязано на одном центральном пункте.</li>
+<li>В P2P-архитектуре все участники (узлы) равны и соединяются напрямую друг с другом. Нет главного сервера. Каждый узел одновременно является и клиентом, и сервером.</li>
+</ul>
+<p>Преимущества архитектуры:</p>
+<ul>
+<li>Устойчивость: Чтобы «сломать» сеть, нужно выключить все компьютеры одновременно, что невозможно.</li>
+<li>Отсутствие единой точки отказа: Если один или даже несколько компьютеров выйдут из строя, сеть продолжит работу.</li>
+<li>Прозрачность и доверие: Все видят все операции, и никто не может тайно их подделать. Доверие создается не посредником (банком), а математикой и криптографией.</li>
+</ul>
+<h2 id="_3">👥Из кого состоит сеть блокчейна? (Ноды, Майнеры)</h2>
+<p><img alt="" src="../images/node.png" /></p>
+<p>Главными участниками сети выступают ноды (пользователи). Нода — это любой компьютер, подключенный к блокчейн-сети. Это основа основ, инфраструктура, на которой всё держится. Они обеспечивают безопасность сети, проверяют подписи в транзакциях, убеждаются в отсутствии двойных трат, проверяют блоки и хранят историю транзакций(блокчейн).[6]</p>
+<p>У нодов есть пара криптографических ключей: <strong>Приватный ключ</strong>(держится в секрете) и <strong>Публичный ключ</strong>(известен всем в сети, ваш идентификатор). С помощью Приватного ключа можно создавать цифровую подпись, которая подтверждает, что транзакция была отправлена именно владельцем.[5]</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Криптографические ключи — это последовательность данных, используемая в криптографии для защиты информации: шифрования, расшифровки, проверки электронных подписей и аутентификации. Они являются основой кибербезопасности и обеспечивают конфиденциальность и целостность данных. Существуют два основных типа: симметричные (используют один ключ для шифрования и расшифровки) и асимметричные (используют пару открытого и закрытого ключей). Это фундаментальный механизм безопасности в блокчейне, который обеспечивает владение активами и защиту транзакций.</p>
+</div>
+<p>Как это работает в блокчейне:</p>
+<ul>
+<li>Новый узел подключается к сети, находя хотя бы несколько других узлов.</li>
+<li>Когда один узел создает или получает новую информацию (например, транзакцию или блок), он рассылает ее всем своим "соседям". Те, в свою очередь, рассылают ее своим соседям, и так информация распространяется по всей сети за секунды.</li>
+<li>Если информацию, которую получает узел, неверная, то нод отвергает её и не рассылает дальше.</li>
+</ul>
+<p>Виды нодов:</p>
+<ul>
+<li>Полные ноды (Full Nodes): Хранят полную копию блокчейна от самого первого блока до текущего момента. Проверяют и валидируют каждый новый блок и все транзакции по строгим правилам консенсуса. Автономно верифицируют всю историю транзакций, не доверяя третьим сторонам.Распространяют информацию — ретранслируют валидные данные другим узлам</li>
+<li>Легкие ноды(Light Nodes): Хранят только заголовки блоков (легковесная версия). Запрашивают информацию о конкретных транзакциях при необходимости. Идеальны для мобильных кошельков и приложений с ограниченными ресурсами</li>
+<li>Майнеры/Валидаторы — это специализированные участники, которые создают новые блоки через процесс, называемый майнингом.</li>
+</ul>
+<h2 id="_4">🔑Открытый и закрытый ключ</h2>
+<p>Открытый и закрытый ключ — это пара криптографических ключей, связанные асиметричным шифрованием.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Асимметричное шифрование — это метод шифрования данных, использующий пару математически связанных ключей: открытый (публичный) для шифрования и закрытый (приватный) для расшифровки.[5]</p>
+</div>
+<p>Приватный ключ представляет из себя 256-битное случайное число, отображается как 64-символьная строчка в шестнадцатеричной системе счисления. Пример: <em>E9873D79C6D87D...</em></p>
+<p>Публичный ключ генерируется из закрытого ключа через алгоритмы криптографии на эллиптических кривых (Elliptic Curve Digital Signature Algorithm). Каждому приватному ключу должен соответсвовать единственный публичный.[5]</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Алгоритм ECDSA (Elliptic Curve Digital Signature Algorithm) — это реализация схемы цифровой подписи, основанная на использовании эллиптических кривых и модульной арифметики.</p>
+</div>
+<ul>
+<li>С помощью Приватного ключа можно создавать цифровую подпись, которая подтверждает, что транзакция была отправлена именно владельцем. </li>
+<li>С помощью Публичного ключа можно подтвердить подлинность подписи(проверить, что подпись была создана именно владельцем приватного ключа)</li>
+</ul>
+<p>Как это работает:</p>
+<p><img alt="" src="../images/privatpublickey.png" /></p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Хеш (хеш-сумма) — это строка фиксированной длины, которая получается путем преобразования данных произвольного размера с помощью специальной хеш-функции. Этот процесс называется хешированием, а результат — это уникальный идентификатор, который используется для проверки целостности данных или в качестве ключа для поиска в хеш-таблицах. Хеш нельзя восстановить до исходных данных(хеш-функция необратима), а даже малейшее изменение входных данных приведет к совершенно новому хешу.
+В блокчейне используется хеш-функция SHA-256, то есть функция преобразуетв 256-битную строку.[3]</p>
+</div>
+<h2 id="_5">✅Как принимают новый блок? (Майнинг, Механизм Консенсуса)</h2>
+<p>В блокчейн каждый блок состоит из двух частей — <strong>заголовка</strong> и <strong>списка транзакций</strong>.</p>
+<p>Заголовок состоит из[3]:</p>
+<ol>
+<li>Хеша предыдущего блока.</li>
+<li>Времени создания(временной метки).</li>
+<li>Случайного числа Nonce.</li>
+<li>Хеша всех транзакций(все транзакции попарно хешируются, пока не получится один единственный хеш).</li>
+<li>Другие параметры: В зависимости от блокчейна, могут включаться дополнительные данные, например, сложность майнинга.</li>
+<li>Хеш текущего блока(хеш всех остальных данных в заголовке(1-5) ).</li>
+</ol>
+<p><img alt="" src="../images/hashchain.png" /></p>
+<p>Все блоки связаны в именно в цепочку, потому что каждый хеш нового блока = хеш-функция(хеш предыдущего блока). Блоки нельзя просто так переставить местами, так это нарушит их взаимосвязь через хеши.</p>
+<p>Для того чтобы принять новый блок, независимым участники распределенной сети нужно договориться об едином состоянии данных, то есть прийти к общему согласию(консенсусу). Консенсус обеспечивает целостность и работоспособность сети блокчейн, помогает достичь согласия между ее участниками. В отличие от протокола, который устанавливает нормы обмена данными между участниками сети, механизм консенсуса определяет то, как они приходят к согласию по актуальному состоянию этих данных.</p>
+<p>Механизм консенсуса в блокчейне необходим для защиты сети от конфликтов, двойных трат, а также других видов нарушений.</p>
+<p>Механизмы консенсуса бывают различными, функционируют они на основе разных принципов. В Bitcoin таким является Proof of Work(Доказательство работы). В этом механизме майнеру, чтобы получить возможность сформировать блок, ему нужно провести определенную вычислительную работу.</p>
+<p>Работой майнером является формирование блока(проверка на отсутствие двойных трат)подбор случайного числа Nonce, под условия сети. Майнеры подбирают число и вычисляют с ним хеш. Когда найдется майнер, который первый найдет правильное nonce, такое что хеш будет соответсвовать определенным условиям, то он сможет распространить его версию нового блока. Доказательством работы будет выступать nonce. В награду майнер получает все комиссии с тразакций, а также новые созданные монеты.[4]</p>
+<h2 id="_6">🇷🇺Ситуация в России</h2>
+<p>Текущее состояние блокчейн-индустрии в России:
+Российский подход к блокчейну можно охарактеризовать как прагматичный и осторожный, с акцентом на государственный контроль и суверенитет. Ситуация кардинально отличается как от либеральных подходов (как в ЕС или США), так и от запретительных (как в Китае, где запрещены криптовалюты, но не технологии).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>CBDC (Central Bank Digital Currency) — это цифровая форма национальной валюты, выпускаемая центральным банком страны, представляющая собой цифровой аналог наличных денег, но существующий только в цифровом виде и контролируемый государством, что обеспечивает стабильность и безопасность, в отличие от децентрализованных криптовалют, и призванная сделать финансовые системы более эффективными и доступными.[7]</p>
+</div>
+<ol>
+<li>
+<p>Нормативно-правовая база:
+Криптовалюты: С 1 января 2021 года вступил в силу закон «О цифровых финансовых активах (ЦФА)». Он легализовал криптовалюты, но с серьёзными ограничениями: запрещено использование их в качестве средства платежа (за товары и услуги). Они рассматриваются как имущество. С 2024 года идут эксперименты по использованию цифровых валют в международных расчетах.
+Майнинг: Признан предпринимательской деятельностью. В 2022 году был принят закон, легализующий майнинг и разрешающий продажу добытой криптовалюты за рубеж, но с обязательной идентификацией майнеров через гостреестр.
+Цифровой рубль (CBDC): Банк России активно разрабатывает и тестирует цифровой рубль. Это приоритетный государственный блокчейн-проект. Пилоты с реальными операциями начались в 2023 году. Цель — создание контролируемой двухуровневой системы для расчетов, снижения издержек и повышения прозрачности.[7]
+<img alt="" src="../images/rub.jpg" /></p>
+</li>
+<li>
+<p>Сфера применения: 
+Изначально интерес был к криптоактивам, но сейчас фокус сместился на корпоративные и государственные блокчейн-решения:
+ Госсектор: Эксперименты с реестрами (например, ведение реестра прав на недвижимость, дипломов об образовании), цифровые паспорта товаров, прослеживаемость поставок.
+Финансовый сектор: Банки используют блокчейн для торгового финансирования, KYC-процедур и внутренних расчетов (например, платформа «Мастерчейн» от Банка России и ведущих банков).
+ Логистика и цепочки поставок: Крупные компании (Сбер, ВТБ, «Норникель» и др.) тестируют блокчейн для отслеживания товаров от производителя к потребителю.[8]</p>
+</li>
+<li>
+<p>Сравнение с другими странами:
+США: Подход децентрализован, регулирование зависит от штата. Активно развивается DeFi, NFT, институциональные инвестиции. Государственный блокчейн-проект (CBDC) находится на стадии обсуждения и вызывает много споров.
+Китай: Полный запрет на криптовалюты и майнинг, но масштабное внедрение цифрового юаня (e-CNY) и поддержка блокчейна как технологии (BaaS-платформы) для бизнеса под строгим контролем государства. Россия близка к китайской модели в части контроля, но сохраняет «окно» для легального майнинга и владения криптоактивами.
+<img alt="" src="../images/e-cny.jpg" /></p>
+</li>
+</ol>
+<h2 id="_7">🚀Перспективы развития</h2>
+<p><img alt="" src="../images/CBDC.jpg" />
+Перспективы в России есть, но они жёстко заданы рамками государственной стратегии[8]:</p>
+<ol>
+<li>
+<p>Доминирование цифрового рубля: Основные инвестиции и регуляторные усилия будут направлены на внедрение CBDC. Успех цифрового рубля станет ключевым индикатором развития всей экосистемы.[9]
+<img alt="" src="../images/Bez-zagolovka-1.jpg" /></p>
+</li>
+<li>
+<p>Развитие «санкционных» и международных расчетов: Блокчейн-платформы рассматриваются как один из инструментов для организации расчётов со странами-партнёрами в обход традиционных финансовых систем (SWIFT). Это станет мощным драйвером для пилотных проектов.</p>
+</li>
+<li>
+<p>Расширение корпоративных решений: Внедрение в логистике, энергетике (учёт и торговля углеродными единицами), госзакупках. Акцент на повышение доверия и снижение транзакционных издержек в изолированных системах.</p>
+</li>
+<li>
+<p>Ужесточение контроля: Вероятно дальнейшее ужесточение требований к идентификации пользователей криптобирж, отслеживанию транзакций (соответствие рекомендациям FATF).</p>
+</li>
+<li>
+<p>Риски для публичного блокчейна и DeFi: Инновации в сфере децентрализованных финансов (DeFi), NFT и публичных блокчейнах (Ethereum, Solana) будут тормозиться из-за регуляторной неопределённости и риска ограничений. Талантливые разработчики могут продолжать уезжать в более либеральные юрисдикции.</p>
+</li>
+<li>
+<p>Российский бизнес и государственные структуры активно исследуют и внедряют блокчейн-решения для оптимизации процессов и повышения прозрачности:</p>
+<ul>
+<li>СберБанк - разработал платформу «СберБлокчейн» на базе Hyperledger Fabric, использует для выпуска цифровых банковских гарантий и проведения сделок репо</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Hyperledger Fabric — это программный фреймворк для разработки приложений и специализированных бизнес-решений на основе блокчейна. </p>
+</div>
+<ul>
+<li>Альфа-Банк - внедрял блокчейн для автоматизации процесса выдачи банковских гарантий, что ускоряет получение гарантий клиентами</li>
+<li>ВТБ - проводил эксперименты с блокчейн-платформой для межбанковских расчетов и документарных операций</li>
+<li>X5 Group («Пятерочка», «Перекресток») - использует блокчейн-платформу «Финтренд» для автоматизации финансирования поставок, позволяя поставщикам получать оплату сразу после приемки товара</li>
+<li>«Вайлдберриз» - применяет блокчейн для защиты авторских прав брендов и борьбы с контрафактом через создание реестра подлинных товаров</li>
+<li>Группа «М.Видео-Эльдорадо» - тестировала блокчейн для отслеживания цепочек поставок бытовой техники и электроники</li>
+<li>Ростелеком - является ключевым оператором системы «Мастерчейн», российской блокчейн-платформы для создания доверенной цифровой подписи документов</li>
+<li>Норникель - тестировал использование блокчейна для отслеживания происхождения металлов от добычи до поставки клиенту</li>
+<li>РЖД - экспериментировала с блокчейном для цифровизации процессов грузоперевозок и товарно-транспортных документов</li>
+<li>Росреестр - проводил эксперименты с блокчейном для регистрации сделок с недвижимостью, чтобы сделать процесс более прозрачным и безопасным</li>
+<li>Минцифры России - разрабатывало концепцию использования блокчейна в системе госуправления, включая ведение реестров и документооборот</li>
+<li>Московская биржа - исследовала возможности блокчейна для создания инфраструктуры цифровых финансовых активов</li>
+</ul>
+</li>
+</ol>
+<p>Вывод: Россия не стремится быть лидером в глобальной криптореволюции. Она создаёт замкнутую, контролируемую цифровую среду, где блокчейн-технологии служат, в первую очередь, целям государственного управления, финансового суверенитета и эффективности крупного бизнеса. Основная перспектива — во внутренней цифровизации и нишевых международных проектах с «дружественными» странами.</p>
+<h3 id="_8">Список источников</h3>
+<ol>
+<li>О БЛОКЧЕЙН-ТЕХНОЛОГИИ/Исаева Д.Г.// <a href="https://cyberleninka.ru/article/n/o-blokcheyn-tehnologii">https://cyberleninka.ru/article/n/o-blokcheyn-tehnologii</a></li>
+<li>Введение в блокчейн 2.0/Жданов И.Н. Федоров А.И. Балашов А.В.//Текст научной статьи по специальности «Компьютерные и информационные науки»// <a href="https://cyberleninka.ru/article/n/vvedenie-v-blokcheyn-2-0">https://cyberleninka.ru/article/n/vvedenie-v-blokcheyn-2-0</a></li>
+<li>Технологии блокчейн: учебно-методическое пособие по дисциплине «Финансовые технологии»/Издательство
+    Московский технический университет связи и информатики// <a href="https://e.lanbook.com/book/478478">https://e.lanbook.com/book/478478</a></li>
+<li>Статья Binance Academy "Что такое алгоритм консенсуса блокчейна?" // <a href="https://www.binance.com/ru/academy/articles/what-is-a-blockchain-consensus-algorithm">https://www.binance.com/ru/academy/articles/what-is-a-blockchain-consensus-algorithm</a></li>
+<li>Статья Binance Academy "Что такое цифровая подпись?" // <a href="https://www.binance.com/ru/academy/articles/what-is-a-digital-signature">https://www.binance.com/ru/academy/articles/what-is-a-digital-signature</a></li>
+<li>Англоязычная статья ByBit Learn "Peer-to-Peer Blockchain Networks: The Rise of P2P Crypto Exchanges"//<a href="https://learn.bybit.com/en/bybit-p2p-guide/peer-to-peer-blockchain-network">https://learn.bybit.com/en/bybit-p2p-guide/peer-to-peer-blockchain-network</a></li>
+<li>ИССЛЕДОВАНИЕ И АНАЛИЗ ЦИФРОВЫХ ВАЛЮТ ЦЕНТРАЛЬНЫХ БАНКОВ (CBDC)//<a href="https://cyberleninka.ru/article/n/issledovanie-i-analiz-tsifrovyh-valyut-tsentralnyh-bankov-cbdc">https://cyberleninka.ru/article/n/issledovanie-i-analiz-tsifrovyh-valyut-tsentralnyh-bankov-cbdc</a></li>
+<li>Статья ItWeek "Перспективы блокчейн в России"//<a href="https://www.itweek.ru/idea/article/detail.php?ID=182389">https://www.itweek.ru/idea/article/detail.php?ID=182389</a></li>
+<li>Статья Росконгресс "Будущее денег: перейдет ли Россия на цифровой рубль в ближайшие годы?"//<a href="https://roscongress.org/materials/budushchee-deneg-pereydet-li-rossiya-na-tsifrovoy-rubl-v-blizhayshie-gody/">https://roscongress.org/materials/budushchee-deneg-pereydet-li-rossiya-na-tsifrovoy-rubl-v-blizhayshie-gody/</a></li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": [], "search": "../assets/javascripts/workers/search.7a47a382.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e71a0d61.min.js"></script>
+      
+    
+  </body>
+</html>
